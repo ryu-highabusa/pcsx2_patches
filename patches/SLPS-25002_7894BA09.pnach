@@ -7,4 +7,7 @@ patch=1,EE,203B0400,word,3F400000
 patch=1,EE,203B0C20,word,3F400000
 patch=1,EE,203B1440,word,3F400000
 
-
+[No-Interlacing]
+gsinterlacemode=1
+comment=No-Interlacing hack by ryu_highabusa
+patch=1,EE,2031EC74,word,00000000
